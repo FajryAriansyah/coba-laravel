@@ -19,6 +19,11 @@
             <a class="nav-link {{ $active === "categories" ? "active" : ""}}" href="/categories">Categories</a>
           </li>
         </ul>
+        <ul class="navbar-nav me-auto" >
+          <li class="nav-item">
+            <a href="/login" class="nav-link">Login</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
