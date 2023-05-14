@@ -10,7 +10,6 @@
 
         @foreach( $categories as $category )
         
-        
         <div class="col-md-4">
                 <a href="/posts?category={{$category->slug}}">
                 <div class="card text-bg-dark">
